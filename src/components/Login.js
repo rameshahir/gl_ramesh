@@ -182,7 +182,7 @@ class Login extends Component {
 
   render() {
     if (this.props.isLogin) {
-      return <h1>Wellcome {this.props.name}</h1>;
+      return <h1>Welcome {this.props.name}</h1>;
     }
     return this.props.isEmail ? this.passwordPromptUI() : this.emailUI();
   }
